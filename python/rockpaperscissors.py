@@ -37,5 +37,7 @@ while keep_playing == True:
         print(sentence.format("rock", "scissors", "user two"))
         keep_playing = False
 
+# tied game
     elif user_one == user_two:
-        print("both users entered the sa
+        print("both users entered the same input. try again.")
+        keep_playing = True
