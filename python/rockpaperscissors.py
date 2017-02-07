@@ -4,7 +4,7 @@ import random
 keep_playing = True
 while keep_playing == True:
     choices = ['rock', 'paper', 'scissors']
-    user_one = input("Choose 'rock,' 'paper,' or 'scissors.': ")
+    user_one = input("choose 'rock,' 'paper,' or 'scissors.': ")
     user_two = random.choice(choices)
     sentence = "{} beats {}. {} won."
 
