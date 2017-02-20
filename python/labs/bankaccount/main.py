@@ -10,17 +10,17 @@ def main():
 
         if menu == '1':
             deposit_amount = int(input("Enter the amount you would like to deposit: "))
-            print(deposit_amount)
+            print("You have deposited ${}.".format(deposit_amount))
             id_1.deposit_money(deposit_amount)
 
         elif menu == '2':
             withdrawal_amount = int(input("Enter the amount you would like to withdraw: "))
-            print(withdrawal_amount)
+            print("You withdrew ${}.".format(withdrawal_amount))
             id_1.make_withdrawal(withdrawal_amount)
 
 
         elif menu == '3':
-            print(id_1.get_balance())
+            print("Your balance is ${}.".format(id_1.get_balance()))
 
         elif menu == '4':
             print(id_1.get_transaction_history())
