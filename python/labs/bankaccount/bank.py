@@ -16,16 +16,16 @@ class CheckingAccount:
     def deposit_money(self, deposit_amount):
         self.balance += deposit_amount
         self.deposit_total += deposit_amount
-        message_1 = "Deposited {} dollars.".format(deposit_amount)
+        message_1 = "Deposited ${}.".format(deposit_amount)
         self.transaction_history.append(message_1)
 
     def make_withdrawal(self, withdrawal_amount):
         if withdrawal_amount > self.balance:
-            print("Insufficient funds.")
+            print("Insufficient funds. You balance is ${}.".format(self.balance))
         else:
             self.balance -= withdrawal_amount
             self.withdrawal_total += withdrawal_amount
-            message_2 = "Withdrew {} dollars.".format(withdrawal_amount)
+            message_2 = "Withdrew ${}.".format(withdrawal_amount)
             self.transaction_history.append(message_2)
 
     def get_transaction_history(self):
