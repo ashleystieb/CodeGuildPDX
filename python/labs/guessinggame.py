@@ -31,6 +31,10 @@ def check_guess():
         if user_guess == correct:
             print("Congratulations! You guessed right in {} tries!".format(guesses_taken))
             number_right = True
+        elif user_guess > correct:
+            print("Too high. Guess again.")
+        elif user_guess < correct:
+            print("Too low. Guess again.")
         else:
             print("Sorry, you guessed wrong. Try again.")
         guesses_taken += 1
