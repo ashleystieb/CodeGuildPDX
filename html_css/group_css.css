@@ -1,0 +1,66 @@
+.background {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    transition: background-color 1s ease;
+}
+
+.background:hover {
+    background-color: peachpuff;
+}
+
+.one {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 50px;
+    font-weight: lighter;
+
+}
+
+.two {
+    font-family: "American Typewriter", Sans-Serif;
+    font-size: 100px;
+    font-weight: 100;
+    color: dimgrey;
+    text-decoration: overline;
+}
+
+.second {
+    background-color: dimgrey;
+    transition: background-color 3s ease-out;
+}
+
+.second:hover {
+    background-color: aqua;
+}
+
+.underline {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.link {
+    font-size: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: azure;
+    text-decoration: underline;
+    background-color: peachpuff;
+}
+
+.link:active {
+    color: orange;
+    text-decoration: line-through;
+}
+
+.link:visited {
+    color: purple;
+    text-decoration: underline;
+}
