@@ -1,0 +1,33 @@
+.square {
+    display: block;
+    justify-content: center;
+}
+
+.red {
+    display: inline-flex;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border: 2px dashed;
+    margin: 10px;
+}
+
+.blue {
+    display: inline-flex;
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border: 2px dashed;
+    margin: 10px;
+
+}
+
+.yellow {
+    display: inline-flex;
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    border: 2px dashed;
+    margin: 10px;
+
+}
