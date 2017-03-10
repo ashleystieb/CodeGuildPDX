@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+
+.bar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: dimgrey;
+    position: fixed;
+    width: 100vw;
+    border: 2px solid black;
+}
+
+.home {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+}
+
+.home:hover {
+    background-color: lightgrey;
+}
+
+.about {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+}
+
+.about:hover {
+    background-color: lightgrey;
+
+}
+
+.products {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+
+}
+
+.products:hover {
+    background-color: lightgrey;
+}
+
+.contact {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+}
+
+.contact:hover {
+    background-color: lightgrey;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
