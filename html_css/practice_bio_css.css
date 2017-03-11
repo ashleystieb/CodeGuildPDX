@@ -1,4 +1,224 @@
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.bar {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    border: 2px solid black;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.nav_about_me {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+}
+
+.nav_about_me:hover {
+    background-color: lightgrey;
+}
+
+.nav_quote {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+}
+
+.nav_quote:hover {
+    background-color: lightgrey;
+
+}
+
+.nav_places {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+
+}
+
+.nav_places:hover {
+    background-color: lightgrey;
+}
+
+.nav_contact {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+
+}
+
+.nav_contact:hover {
+    background-color: lightgrey;
+}
+
+a {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.nav_likes {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+
+}
+
+.nav_likes:hover {
+    background-color: lightgrey;
+}
+
+.nav_dislikes {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+
+}
+
+.nav_dislikes:hover {
+    background-color: lightgrey;
+}
+
+.nav_pics {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+
+}
+
+.nav_pics:hover {
+    background-color: lightgrey;
+}
+
+.nav_schedule {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid;
+    transition: background-color 1s ease;
+    font-size: 20px;
+
+}
+
+.nav_schedule:hover {
+    background-color: lightgrey;
+}
+
 .image_one {
     height: 20%;
     width: 20%;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 100%;
+    justify-content: center;
+}
+
+#intro {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    font-size: 75px;
+
+}
+
+#about_me {
+    margin: 20px;
+}
+
+#places {
+    margin: 20px;
+}
+
+#quote {
+    margin: 20px;
+}
+
+#likes {
+    margin: 20px;
+}
+
+#dislikes {
+    margin: 20px;
+}
+
+#pics {
+    margin: 20px;
+}
+
+#schedule {
+    margin: 20px;
+}
+
+table {
+    background-color: white;
+    color: dimgrey;
+    font-family: Helvetica, Sans-Serif;
+    border: solid black 1px;
+    font-weight: lighter;
+}
+
+td {
+    border: solid darkgrey 1px;
+    background-color: white;
+}
+
+th {
+    border: solid lightgrey 1px;
+    background-color: white;
+}
+
+
+#blank {
+    background-color: white;
+    border: solid white;
+}
+
+#contact {
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: darkgrey;
+    color: white;
+    height: 5%;
+    width: 100vw;
+    font-size: 10px;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 10%;
 }
