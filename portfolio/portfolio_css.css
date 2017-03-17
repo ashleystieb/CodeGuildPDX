@@ -6,7 +6,8 @@ body {
 .container {
     display: flex;
     margin: 10px;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -25,10 +26,8 @@ body {
     width: 400px;
     height: 250px;
     border: 2px solid black;
-    justify-content: center;
     margin: 10px;
-    flex-direction: row;
-    align-content: space-around;
+    justify-content:center;
 }
 
 h4 {
@@ -59,6 +58,13 @@ h4 {
 
 #three {
     background-image: url("http://i65.tinypic.com/chi0k.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+#four {
+    background-image: url("http://i63.tinypic.com/fmrolu.png ");
     width: 400px;
     height: 250px;
     justify-content: center;
