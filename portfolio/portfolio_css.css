@@ -1,0 +1,65 @@
+body {
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+}
+
+.assignment {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+h4 {
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+#one {
+    background-image: url("http://i67.tinypic.com/f2qa6e.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+
+#two {
+    background-image: url("http://i66.tinypic.com/dbinlv.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+#three {
+    background-image: url("http://i65.tinypic.com/chi0k.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
