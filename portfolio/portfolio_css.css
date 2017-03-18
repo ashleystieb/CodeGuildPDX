@@ -29,7 +29,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     background-color: #68625F;
-    border: 1px solid grey;
+    border: 1px solid #383F36;
 }
 
 .container {
