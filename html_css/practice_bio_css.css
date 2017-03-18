@@ -14,6 +14,7 @@ body {
     border: 2px solid black;
     font-family: Helvetica;
     font-weight: 100;
+    position: fixed;
 }
 
 .nav_about_me {
