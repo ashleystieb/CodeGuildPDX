@@ -143,3 +143,11 @@ h4 {
     color: white;
     display: block;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #68625F;
+    font-size: 15px;
+    width: 100vw;
+}
