@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 
 function createSquares(number){
-    for (var i = 0; i <= number; i++){
+    for (var i = 0; i < number; i++){
         $(".container").append('<div class="square"></div>');
     }
 }
