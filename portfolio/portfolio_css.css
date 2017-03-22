@@ -97,7 +97,21 @@ h4 {
 }
 
 #four {
-    background-image: url("http://i63.tinypic.com/fmrolu.png ");
+    background-image: url("http://i63.tinypic.com/fmrolu.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+#five {
+    background-image: url("http://i67.tinypic.com/18hv79.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+#six {
+    background-image: url("http://i67.tinypic.com/rr4e4j.png");
     width: 400px;
     height: 250px;
     justify-content: center;
@@ -137,6 +151,22 @@ h4 {
 }
 
 #four:hover .hover_info {
+    visibility: visible;
+    background-color: rgba(130, 127, 123, 0.9);
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+#five:hover .hover_info {
+    visibility: visible;
+    background-color: rgba(130, 127, 123, 0.9);
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+#six:hover .hover_info {
     visibility: visible;
     background-color: rgba(130, 127, 123, 0.9);
     font-size: 20px;
