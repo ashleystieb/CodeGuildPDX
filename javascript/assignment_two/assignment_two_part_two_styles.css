@@ -1,0 +1,13 @@
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
