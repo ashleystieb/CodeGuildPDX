@@ -3,5 +3,5 @@
  */
 
 $("#button").click(function(){
-    $(".container").append('<div class="square"></div');
+    $(".container").append('<div class="square"></div>');
 });
