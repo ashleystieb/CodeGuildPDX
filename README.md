@@ -1,5 +1,5 @@
 # PDXCodeGuild
-Projects for the Programming class at PDX Code Guild.
+Projects and notes for the Programming class at PDX Code Guild.
 
 Python
 
