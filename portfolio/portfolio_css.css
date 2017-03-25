@@ -117,6 +117,34 @@ h4 {
     justify-content: center;
 }
 
+#seven {
+    background-image: url("http://i67.tinypic.com/b3k40n.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+#eight {
+    background-image: url("http://i68.tinypic.com/14lu49z.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+#nine {
+    background-image: url("http://i64.tinypic.com/t7h02b.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
+#ten {
+    background-image: url("http://i66.tinypic.com/jhvhqa.png");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
 
 .hover_info {
     visibility: hidden;
@@ -167,6 +195,38 @@ h4 {
 }
 
 #six:hover .hover_info {
+    visibility: visible;
+    background-color: rgba(130, 127, 123, 0.9);
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+#seven:hover .hover_info {
+    visibility: visible;
+    background-color: rgba(130, 127, 123, 0.9);
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+#eight:hover .hover_info {
+    visibility: visible;
+    background-color: rgba(130, 127, 123, 0.9);
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+#nine:hover .hover_info {
+    visibility: visible;
+    background-color: rgba(130, 127, 123, 0.9);
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+#ten:hover .hover_info {
     visibility: visible;
     background-color: rgba(130, 127, 123, 0.9);
     font-size: 20px;
