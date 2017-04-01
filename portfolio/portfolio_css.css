@@ -1,6 +1,5 @@
 body {
-    font-family: Helvetica;
-    font-weight: lighter;
+    font-weight: 100;
     margin: 0;
     padding: 0;
     background-color: #E9EAE8;
@@ -18,11 +17,13 @@ a:hover {
 
 #main {
     width: 100vw;
-    background-color: #EFC050;
+    background-color: #DCB5B4;
     color: #3E3F3E;
     border: none;
     position: fixed;
     margin: 0;
+    font-weight: 100;
+    font-family: Helvetica;
 }
 
 #nav {
@@ -30,6 +31,7 @@ a:hover {
     justify-content: space-around;
     background-color: #68625F;
     border: 1px solid #383F36;
+    font-family: Helvetica;
 }
 
 .container {
@@ -37,17 +39,21 @@ a:hover {
     margin: 10px;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: Helvetica;
 }
 
 
 #title {
     display: flex;
     justify-content: center;
+    font-family: Helvetica;
 }
 
 #name {
     display: flex;
     justify-content: center;
+    font-family: Helvetica;
+
 }
 
 .assignment {
