@@ -145,6 +145,13 @@ h4 {
     justify-content: center;
 }
 
+#eleven {
+    background-image: url("http://i65.tinypic.com/4t99uu.jpg");
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+}
+
 
 .hover_info {
     visibility: hidden;
@@ -227,6 +234,14 @@ h4 {
 }
 
 #ten:hover .hover_info {
+    visibility: visible;
+    background-color: rgba(130, 127, 123, 0.9);
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+#eleven:hover .hover_info {
     visibility: visible;
     background-color: rgba(130, 127, 123, 0.9);
     font-size: 20px;
